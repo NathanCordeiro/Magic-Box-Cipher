@@ -24,6 +24,10 @@ The MagicBox cipher is my own take on the classic keyword substitution cipher.  
    ```sh
    git clone https://github.com/NathanCordeiro/Magic-Box-Cipher.git
    ```
+2. Navigate to the project directory:
+   ```sh
+   cd Magic-Box-Cipher
+   ```
 
 ## License
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
