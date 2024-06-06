@@ -3,7 +3,7 @@
 ---
 
 ## Overview
-The MagicBox cipher is my own take on the classic keyword substitution cipher.  This type of cipher relies on a secret keyword to create a custom codebook for encryption and decryption. While there are many historical and existing keyword ciphers, the MagicBox cipher offers a unique twist with its approach.
+**The MagicBox cipher is my own take on the classic keyword substitution cipher.  This type of cipher relies on a secret keyword to create a custom codebook for encryption and decryption. While there are many historical and existing keyword ciphers, the MagicBox cipher offers a unique twist with its approach.**
 
 ## Why use the magic box cipher?
   - ### `Dynamic Table Creation:`
@@ -16,8 +16,11 @@ The MagicBox cipher is my own take on the classic keyword substitution cipher.  
        
        | *While the MagicBox cipher offers a fun and educational way to explore cryptography, it's important to acknowledge its limitations. For truly secure communication, especially when dealing with                sensitive information, stronger encryption algorithms are recommended. However, for specific use cases where a layer of basic obscurity is desired, the MagicBox cipher can be a useful tool.* |
        |:--|
-    
+
+    ---
     </details>
+
+## Code Explanation
 
 ## Installation
 1. Clone the repository:
@@ -28,6 +31,7 @@ The MagicBox cipher is my own take on the classic keyword substitution cipher.  
    ```sh
    cd Magic-Box-Cipher
    ```
+## Usage
 
 ## License
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
