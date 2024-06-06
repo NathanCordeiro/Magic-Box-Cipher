@@ -19,5 +19,11 @@ The MagicBox cipher is my own take on the classic keyword substitution cipher.  
     
     </details>
 
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/NathanCordeiro/Magic-Box-Cipher.git
+   ```
+
 ## License
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
