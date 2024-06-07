@@ -44,6 +44,11 @@
        - The message is split into words to preserve spaces.
        - Each word is processed individually.
 
+  3. Encryption:
+       - Each letter in the message is converted to its position in the grid.
+       - The character is replaced by the one directly below it in the grid.
+       - If the character is in the last row, it wraps around to the first row.
+           - Example Message: "HELLO WORLD"
 
 ## Installation
 1. Clone the repository:
