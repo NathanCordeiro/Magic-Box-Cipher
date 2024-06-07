@@ -9,6 +9,9 @@
   - ### `Dynamic Table Creation:`
       - Unlike some keyword ciphers that use pre-defined substitution tables, the MagicBox cipher takes a user-defined keyword and generates a dynamic 5x5 substitution table on the fly. This table serves as the core of the encryption and decryption process. The keyword itself is incorporated into the table, and the remaining slots are filled with the rest of the alphabet. This dynamic table creation adds a layer of variability compared to static ciphers that use pre-determined letter mappings. A static cipher's predictability makes it more susceptible to code-breaking attempts, especially if the underlying table structure is known.
 
+  - ### `Customizable Transposition Key:`
+      - The Magic Box Cipher offers an additional layer of security through the use of a customizable transposition key. This key is a sequence of numbers used to rearrange the rows or columns of the encrypted message, adding complexity beyond the initial substitution step. By allowing users to choose their own transposition key or use a default one, the cipher provides a flexible yet powerful method to further obfuscate the message. This feature is particularly useful because even if an attacker understands the substitution grid, they still need to decipher the additional transposition step to fully decode the message.
+
   - <details>
 
     <summary>  <h2> 👇 NOTE</h2> </summary>
