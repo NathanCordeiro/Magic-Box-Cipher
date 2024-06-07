@@ -62,6 +62,7 @@
              |     L     |  Row 2, Column 2  |        R        |          R          |
              |     D     |  Row 1, Column 2  |        K        |          K          |
 
+            - Encrypted message: `"OLRRT GTWRK"`
 
 ## Installation
 1. Clone the repository:
