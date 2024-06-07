@@ -31,14 +31,13 @@
    - The letter 'Z' is excluded from the table. If 'Z' is encountered in the message, it is substituted with 'A'.
    - This creates a 5x5 table with all letters from 'A' to 'Y', except 'Z'.
        - If The keyword is `"MAGIC"`, Here’s how the table is constructed:
-      </br>
        
-       | M | A | G | I | C |
-       |---|---|---|---|---|
-       | B | D | E | F | H |
-       | J | K | L | N | O |
-       | P | Q | R | S | T |
-       | U | V | W | X | Y |
+         | M | A | G | I | C |
+         |---|---|---|---|---|
+         | B | D | E | F | H |
+         | J | K | L | N | O |
+         | P | Q | R | S | T |
+         | U | V | W | X | Y |
 
   2. Prepare the Message:
        - The message is split into words to preserve spaces.
@@ -49,6 +48,20 @@
        - The character is replaced by the one directly below it in the grid.
        - If the character is in the last row, it wraps around to the first row.
            - Example Message: "HELLO WORLD"
+
+             | Character | Position in Table | Character Below | Encrypted Character |
+             |-----------|-------------------|-----------------|---------------------|
+             |     H     |  Row 1, Column 4  |        O        |          O          |
+             |     E     |  Row 1, Column 2  |        L        |          L          |
+             |     L     |  Row 2, Column 2  |        R        |          R          |
+             |     L     |  Row 2, Column 2  |        R        |          R          |
+             |     O     |  Row 2, Column 4  |        T        |          T          |
+             |     W     |  Row 4, Column 2  |        G        |          G          |
+             |     O     |  Row 2, Column 4  |        T        |          T          |
+             |     R     |  Row 3, Column 2  |        W        |          W          |
+             |     L     |  Row 2, Column 2  |        R        |          R          |
+             |     D     |  Row 1, Column 2  |        K        |          K          |
+
 
 ## Installation
 1. Clone the repository:
