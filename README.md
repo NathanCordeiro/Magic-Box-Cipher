@@ -30,17 +30,20 @@
    - The keyword and the rest of the alphabet populate the grid in row-major order.
    - The letter 'Z' is excluded from the table. If 'Z' is encountered in the message, it is substituted with 'A'.
    - This creates a 5x5 table with all letters from 'A' to 'Y', except 'Z'.
-       - The keyword is `"MAGIC"`, Here’s how the table is constructed:
-  
-         </br>
+       - If The keyword is `"MAGIC"`, Here’s how the table is constructed:
+      </br>
+       
        | M | A | G | I | C |
        |---|---|---|---|---|
        | B | D | E | F | H |
        | J | K | L | N | O |
        | P | Q | R | S | T |
        | U | V | W | X | Y |
-         
-       
+
+  2. Prepare the Message:
+       - The message is split into words to preserve spaces.
+       - Each word is processed individually.
+
 
 ## Installation
 1. Clone the repository:
