@@ -49,7 +49,7 @@
        - If the character is the last character in the column, it wraps around to the first character in the column.
            - Example Message: "HELLO WORLD"
 
-             | Character | Position in Table | Character Below | Encrypted Character |
+             | `Character` | `Position in Table` | `Character Below` | `Encrypted Character` |
              |-----------|-------------------|-----------------|---------------------|
              |     H     |  Row 1, Column 4  |        O        |          O          |
              |     E     |  Row 1, Column 2  |        L        |          L          |
