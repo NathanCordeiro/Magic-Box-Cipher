@@ -24,6 +24,23 @@
     </details>
 
 ## Code Explanation
+1. Create the Magic table:
+   - Initialize a 5x5 NumPy array and fills it with the characters from the keyword, followed by the remaining letters of the alphabet.
+   - Duplicate letters from the keyword are skipped.
+   - The keyword and the rest of the alphabet populate the grid in row-major order.
+   - The letter 'Z' is excluded from the table. If 'Z' is encountered in the message, it is substituted with 'A'.
+   - This creates a 5x5 table with all letters from 'A' to 'Y', except 'Z'.
+       - The keyword is `"MAGIC"`, Here’s how the table is constructed:
+  
+         </br>
+       | M | A | G | I | C |
+       |---|---|---|---|---|
+       | B | D | E | F | H |
+       | J | K | L | N | O |
+       | P | Q | R | S | T |
+       | U | V | W | X | Y |
+         
+       
 
 ## Installation
 1. Clone the repository:
