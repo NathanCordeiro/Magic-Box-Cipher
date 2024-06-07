@@ -32,6 +32,12 @@
    cd Magic-Box-Cipher
    ```
 ## Usage
+1. Run the script:
+   ```sh
+   python cipher.py
+   ```
+2. Choose whether to encrypt (E) or decrypt (D) a message.
+3. Enter the message and keyword as prompted.
 
 ## License
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
