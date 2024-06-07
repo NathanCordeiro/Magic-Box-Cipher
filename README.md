@@ -46,7 +46,7 @@
   3. Encryption:
        - Each letter in the message is converted to its position in the grid.
        - The character is replaced by the one directly below it in the grid.
-       - If the character is in the last row, it wraps around to the first row.
+       - If the character is the last character in the column, it wraps around to the first character in the column.
            - Example Message: "HELLO WORLD"
 
              | Character | Position in Table | Character Below | Encrypted Character |
@@ -63,6 +63,11 @@
              |     D     |  Row 1, Column 2  |        K        |          K          |
 
             - Encrypted message: `"OLRRT GTWRK"`
+      
+  4. Decryption:
+       - Each letter in the encrypted message is converted to its position in the grid.
+       - The character is replaced by the one directly above it in the grid.
+       - If the character is in the first row, it wraps around to the last row.
 
 ## Installation
 1. Clone the repository:
